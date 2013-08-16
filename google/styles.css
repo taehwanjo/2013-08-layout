@@ -1,3 +1,157 @@
 body {
-  /* rules go here */
+  margin: 0;
+  padding: 0;
+  font-family:Arial;
 }
+
+.mainHeader {
+  background-color: #2d2d2d;
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+
+.menu {
+  margin: 0;
+  padding: 3px 0 0 0;
+}
+
+.menu li {
+  list-style-type: none;
+  font-weight:bold;
+  color: #cccccc;
+  font-size: 13px;
+  display: inline-block;
+  margin: 5px 0 0 15px;
+}
+
+.menu li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.signIn {
+  position: absolute;
+  box-sizing: border-box;
+  top: 50px;
+  right: 15px;
+  display: block;
+  height: 29px;
+  width: 73px;
+  background-color: #c53727;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 11px;
+  font-weight:bold;
+  text-align: center;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+.signIn:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  border-color: #b0281a;
+  border-bottom-color: #af301f;
+}
+
+.searchButtons {
+  width: 227px;
+  margin: 15px auto 0;
+  height: 29px;
+}
+
+.searchButton {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 29px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  color: #333333;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 27px;
+  cursor: pointer;
+  padding: 0 7px;
+  margin: 0 5px;
+}
+
+.searchButton:hover {
+  box-shadow: 0 0  0 1px rgba(0,0,0,.1);
+}
+
+.logo {
+  display: block;
+  width:275px;
+  height:95px;
+  margin: 0 auto;
+}
+
+.searchBox {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 20px 0 0 0;
+  width: 100%;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.searchArea {
+  position: relative;
+  width: 534px;
+  margin: 160px auto 0;
+}
+
+.micGif {
+  position: absolute;
+  top: 119px;
+  right: 4px;
+  opacity: .7;
+  cursor: pointer;
+}
+
+.micGif:hover {
+  opacity: 1;
+}
+
+.footer {
+  position:absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  border-top: 1px solid #cccccc;
+  color: #666666;
+  font-size: 13px;
+  width: 100%;
+  padding: 8px;
+}
+
+.footermenu {
+  margin: 0;
+  float: right;
+}
+
+.footermenu li {
+  display:inline;
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
